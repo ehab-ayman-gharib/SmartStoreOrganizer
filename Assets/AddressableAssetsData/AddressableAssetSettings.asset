@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 940316d86c7c0a84caf4ca36903d4e9f
+  m_currentHash:
+    serializedVersion: 2
+    Hash: a4c2f63eb4e8cdfe0027d9f9b189f47f
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_InternalIdNamingMode: 0
+  m_InternalBundleIdMode: 1
+  m_AssetLoadMode: 0
+  m_BundledAssetProviderType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_AssetBundleProviderType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_EnableJsonCatalog: 0
+  m_NonRecursiveBuilding: 1
+  m_AllowNestedBundleFolders: 0
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_UseUWRForLocalBundles: 0
+  m_BundleTimeout: 0
+  m_BundleRetryCount: 0
+  m_BundleRedirectLimit: -1
+  m_SharedBundleSettings: 0
+  m_SharedBundleSettingsCustomGroupIndex: 0
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_BuiltInBundleNaming: 0
+  mBuiltInBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 7cf82969d961a854fb2ee6759ab208eb, type: 2}
+  - {fileID: 11400000, guid: 4c98a58838fe41d46a479b4a69c28489, type: 2}
+  m_BuildSettings:
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 43d70500df5208847a94b15f7e366b6f
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 4bd7b42f81283c6478f1c57f71c1de47
+        m_Value: <undefined>
+      - m_Id: 9ac44fa4bd4ef874db445789218429bc
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 9c712f93f9588e84e97dc82fe279c2bb
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: b98d5214a898414428f8bf152cf68a0b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: dd25792c7bad13d4cb570fd051b48772
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+    m_ProfileEntryNames:
+    - m_Id: 4bd7b42f81283c6478f1c57f71c1de47
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 9ac44fa4bd4ef874db445789218429bc
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 9c712f93f9588e84e97dc82fe279c2bb
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: b98d5214a898414428f8bf152cf68a0b
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: dd25792c7bad13d4cb570fd051b48772
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Locale
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 46ce66b244b658747934f243e9226472, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 2
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 06861f09f5905394bacf7fa94c4e7cb6, type: 2}
+  - {fileID: 11400000, guid: e092112d84fb33e489ca9664455a811b, type: 2}
+  - {fileID: 11400000, guid: 89a14f13669a7f14883888784e779f5c, type: 2}
+  m_ActiveProfileId: 43d70500df5208847a94b15f7e366b6f
