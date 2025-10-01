@@ -31,6 +31,14 @@ MonoBehaviour:
     m_Key: mainMenu.SelectLevel
     m_Metadata:
       m_Items: []
+  - m_Id: 18876799827968
+    m_Key: Cooler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18922207363072
+    m_Key: Shelf
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
