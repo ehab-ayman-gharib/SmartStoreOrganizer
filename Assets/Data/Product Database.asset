@@ -15,19 +15,31 @@ MonoBehaviour:
   products:
   - productName: Apple
     category: 0
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 8344876809102217208, guid: 7e3ac2702bb000b4d801d55819c12b9c, type: 3}
   - productName: Bread
     category: 0
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 3565301547631823854, guid: 6814a1b9fdd5fac4daffefadc0aa27ba, type: 3}
   - productName: Chicken Breast
     category: 0
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 2958053744345524781, guid: 3b29a927bdef8744a9fce8af33852540, type: 3}
   - productName: Burger
     category: 0
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 3920504456293330911, guid: a2ec7a78473d1eb49aebc827b0409c30, type: 3}
   - productName: Milk
     category: 0
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 6990383016777689926, guid: 847d1510afe751b498227811d6797876, type: 3}
   - productName: Cup
     category: 1
-    productPrefab: {fileID: 0}
+    productPrefab: {fileID: 6120526637750769216, guid: d44a10998e0f1b142956f3a0beac3b27, type: 3}
+  - productName: Clock
+    category: 1
+    productPrefab: {fileID: 2015498317791280007, guid: 4ff490619a32ec540983078072a9ec0a, type: 3}
+  - productName: Plant
+    category: 1
+    productPrefab: {fileID: 2736193476713382614, guid: 4852b903537bbc342a894632a340ba4a, type: 3}
+  - productName: PenHolder
+    category: 1
+    productPrefab: {fileID: 5637137779594542552, guid: a7530d23e2efda94e8d2211789f16fdd, type: 3}
+  - productName: Stapler
+    category: 1
+    productPrefab: {fileID: 8022331870005898074, guid: 5208a499b853af141865cfbd3314c095, type: 3}

@@ -5,7 +5,7 @@ public class ProductItem : DraggableItem
     ProductData productData;
     void Start()
     {
-
+        base.Initialize();
     }
 
     void Update()

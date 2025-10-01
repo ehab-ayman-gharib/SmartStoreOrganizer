@@ -8,9 +8,14 @@ public class DraggableItem : MonoBehaviour
 
     void Start()
     {
-        cam = Camera.main;
+
     }
 
+    public virtual void Initialize()
+    {
+        cam = Camera.main;
+        // Optional: Add any update logic here
+    }
     void OnMouseDown()
     {
         isDragging = true;
