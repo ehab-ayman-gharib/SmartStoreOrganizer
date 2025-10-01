@@ -21,7 +21,7 @@ public class UIPanel : MonoBehaviour
     }
     virtual public void Show()
     {
-        LeanTween.scale(gameObject, Vector3.one, 1f)
+        LeanTween.scale(gameObject, Vector3.one, 0.7f)
                  .setEase(LeanTweenType.easeOutBack); // adds a nice bounce
     }
 }

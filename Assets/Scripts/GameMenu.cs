@@ -13,12 +13,11 @@ public class GameMenu : UIPanel
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         if(startBtn != null)
             startBtn.onClick.AddListener(() => {
                 Hide();
             });
-
         Show();
     }
 
