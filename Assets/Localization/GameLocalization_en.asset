@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: Select Language
     m_Metadata:
       m_Items: []
+  - m_Id: 4046659436544
+    m_Localized: Smart Store Organizer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9260602933248
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15281329192960
+    m_Localized: Select Level
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

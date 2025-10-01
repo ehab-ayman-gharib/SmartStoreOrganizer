@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: Seleccionar Idioma
     m_Metadata:
       m_Items: []
+  - m_Id: 4046659436544
+    m_Localized: Organizador De Tienda Inteligente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9260602933248
+    m_Localized: Comenzar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15281329192960
+    m_Localized: "Selecci\xF3n De Nivel"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

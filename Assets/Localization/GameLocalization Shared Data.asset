@@ -19,6 +19,18 @@ MonoBehaviour:
     m_Key: mainMenu.SelectLanguage
     m_Metadata:
       m_Items: []
+  - m_Id: 4046659436544
+    m_Key: mainMenu.GameTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9260602933248
+    m_Key: mainMenu.Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15281329192960
+    m_Key: mainMenu.SelectLevel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameMenu : UIPanel
 {
+    [SerializeField] private Button startBtn;
     public override void Show()
     {
         base.Show();
@@ -12,6 +14,11 @@ public class GameMenu : UIPanel
     IEnumerator Start()
     {
         yield return new WaitForSeconds(1f);
+        if(startBtn != null)
+            startBtn.onClick.AddListener(() => {
+                Hide();
+            });
+
         Show();
     }
 
