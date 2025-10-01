@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 54cc8aab93e7b1f44a8741c8b081f5e0
+timeCreated: 1480586579
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77393
+  packageName: PBR Textures(pack)for floor
+  packageVersion: 1.0
+  assetPath: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material/Tiles_floor(03).mat
+  uploadId: 149160
