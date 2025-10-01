@@ -31,6 +31,7 @@ public class LevelSelector : MonoBehaviour
         {
             levelBtn.levelBtn.onClick.AddListener(() =>
             {
+                AudioManager.PlayButtonSFX();
                 StartCoroutine(LoadAsync(levelBtn.levelName));
             });
         }

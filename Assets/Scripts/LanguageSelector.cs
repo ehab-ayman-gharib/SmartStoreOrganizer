@@ -22,6 +22,7 @@ public class LanguageSelector : MonoBehaviour
             langBtn.langBtn.onClick.AddListener(() =>
          {
             SetLanguage(langBtn.locale);
+             AudioManager.PlayButtonSFX();
          });
         }
     }

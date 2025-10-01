@@ -13,8 +13,6 @@ public class DraggableItem : MonoBehaviour
 
     void OnMouseDown()
     {
-        print("ss");
-        // Works for mouse (also touch in Unity)
         isDragging = true;
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         offset = transform.position - new Vector3(mousePos.x, mousePos.y, transform.position.z);
