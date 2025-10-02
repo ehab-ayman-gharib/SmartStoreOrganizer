@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 2700321015550666114}
   m_Layer: 0
   m_Name: ProductsPodium
-  m_TagString: Untagged
+  m_TagString: Podium
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -89,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4150600553014069775}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.184, z: 1.362}
   m_LocalScale: {x: 0.8, y: 0.4571429, z: 0.8}
   m_ConstrainProportionsScale: 1

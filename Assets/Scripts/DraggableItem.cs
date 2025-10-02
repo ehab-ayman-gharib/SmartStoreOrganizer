@@ -4,7 +4,7 @@ public class DraggableItem : MonoBehaviour
 {
     private Vector3 offset;
     private Camera cam;
-    private bool isDragging;
+    public bool isDragging;
 
     void Start()
     {
@@ -29,6 +29,7 @@ public class DraggableItem : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = cam.WorldToScreenPoint(transform.position).z; // keep correct depth
         Vector3 worldPos = cam.ScreenToWorldPoint(mousePos);
+        worldPos.z = transform.position.z; // Keep original z if needed
 
         transform.position = worldPos;
     }
