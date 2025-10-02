@@ -43,6 +43,18 @@ MonoBehaviour:
     m_Key: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 301611468636160
+    m_Key: GameEnd.Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301737503277056
+    m_Key: GameEnd.Lose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301962489937920
+    m_Key: GameEnd.PlayAgain
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

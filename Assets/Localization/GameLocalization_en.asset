@@ -46,6 +46,18 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 301611468636160
+    m_Localized: Congratulations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301737503277056
+    m_Localized: You Lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301962489937920
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -10,6 +10,7 @@ public class SettingsPanel : UIPanel
     public override void Show()
     {
         base.Show();
+        FindFirstObjectByType<GameEndPanel>().Reset();
     }
     public override void Reset()
     {

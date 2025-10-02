@@ -46,6 +46,18 @@ MonoBehaviour:
     m_Localized: Ajustes
     m_Metadata:
       m_Items: []
+  - m_Id: 301611468636160
+    m_Localized: Felicidades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301737503277056
+    m_Localized: Perdiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301962489937920
+    m_Localized: Jugar de nuevo
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

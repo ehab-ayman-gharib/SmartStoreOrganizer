@@ -38,7 +38,7 @@ public class ProductsManager : MonoBehaviour
 
         int half = productsPlaceholders.Length / 2 + productsPlaceholders.Length % 2;
         List<ProductData> selected = new();
-
+        GameManager.Instance.totalItemsCountToCollect = half;
         selected.AddRange(mainCategoryProducts.Take(half));
         selected.AddRange(otherCategoryProducts.Take(productsPlaceholders.Length - half));
 

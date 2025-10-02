@@ -33,6 +33,12 @@ public class ProductsTarget : MonoBehaviour
                 productItem.transform.rotation = shuffledPlaceholders[currentIndex].rotation;
                 productItem.OnItemCollected();
                 currentIndex++;
+                // Check if all items have been collected
+                if (currentIndex == GameManager.Instance.totalItemsCountToCollect)
+                {
+                    Debug.Log("All items collected! You win!");
+                    GameManager.Instance.WonGame();
+                }
             }
             // Wrong category, reset position
             else

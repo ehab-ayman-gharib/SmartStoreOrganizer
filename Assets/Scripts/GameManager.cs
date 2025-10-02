@@ -13,7 +13,11 @@ public class GameManager : MonoBehaviour
     public ProductData.Category GameCategory;
     [HideInInspector]
     public static bool menuDisplayed = false;
+    [HideInInspector]
     public bool GameStarted;
+    // Reference to the game end panel
+    [SerializeField] GameEndPanel gameEndPanel;
+    public int totalItemsCountToCollect;
 
     void Awake()
     {
@@ -45,9 +49,19 @@ public class GameManager : MonoBehaviour
             Debug.Log("Timer ended! Game Over!");
             GameStarted = false;
             // Handle game over logic here
+            gameEndPanel.StartGameEndPanel(false);
         };
         if (menuDisplayed)
             StartGame();
+    }
+    public void WonGame()
+    {
+        countdownTimer.StopTimer();
+        GameStarted = false;
+        // Handle game win logic here
+        gameEndPanel.StartGameEndPanel(true);
+        totalItemsCountToCollect = 0;
+
     }
 
 }

@@ -34,7 +34,7 @@ public class CountdownTimer : MonoBehaviour
         // Update UI text with integer seconds
         if (timerText != null)
         {
-            if(timeLeft >= 10f)
+            if(timeLeft > 9f)
                 timerText.text = "00:" + Mathf.CeilToInt(timeLeft).ToString();
             else
                 timerText.text = "00:0"+Mathf.CeilToInt(timeLeft).ToString();
@@ -56,5 +56,9 @@ public class CountdownTimer : MonoBehaviour
     {
         timeLeft = startTimeSeconds;
         isRunning = true;
+    }
+    public void StopTimer()
+    {
+        isRunning = false;
     }
 }
