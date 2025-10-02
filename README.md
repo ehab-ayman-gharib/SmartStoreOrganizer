@@ -11,6 +11,10 @@ https://www.figma.com/design/0OUusEH9ngIvXprnnxx0iA/SmartStoreOrganizer
 
 ## APK File included in releases section
 
+## How to Run 
+- Clone the repo
+- Use Unity 6.0.58f1 LTS Version
+
 ## How Drag/Drop Works
 - Click and hold a product to drag.
 - Product movement is limited to the camera view.
