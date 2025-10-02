@@ -2,13 +2,10 @@ using UnityEngine;
 
 public class UIPanel : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       
-    }
 
-    // Update is called once per frame
+    }
     void Update()
     {
 
@@ -16,12 +13,16 @@ public class UIPanel : MonoBehaviour
     virtual public void Hide()
     {
         LeanTween.scale(gameObject, Vector3.zero, 0.7f)
-                 .setEase(LeanTweenType.easeOutQuart) 
-                 .setOnComplete(() => Destroy(gameObject));
+                 .setEase(LeanTweenType.easeOutQuart);
     }
     virtual public void Show()
     {
         LeanTween.scale(gameObject, Vector3.one, 0.7f)
                  .setEase(LeanTweenType.easeOutBack); // adds a nice bounce
+    }
+    virtual public void Reset()
+    {
+        LeanTween.scale(gameObject, Vector3.zero, 0f)
+                 .setEase(LeanTweenType.linear); // adds a nice bounce
     }
 }

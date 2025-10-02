@@ -39,6 +39,10 @@ MonoBehaviour:
     m_Key: Shelf
     m_Metadata:
       m_Items: []
+  - m_Id: 267439098216448
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

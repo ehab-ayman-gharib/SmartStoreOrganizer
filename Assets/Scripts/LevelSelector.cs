@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+// This script manages level selection in the game
 public class LevelSelector : MonoBehaviour
 {
     [System.Serializable]
@@ -38,8 +39,6 @@ public class LevelSelector : MonoBehaviour
         if (sceneName != SceneManager.GetActiveScene().name)
         {
             AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
-
-            // Optional: show loading UI
             while (!operation.isDone)
             {
                 float progress = Mathf.Clamp01(operation.progress / 0.9f);

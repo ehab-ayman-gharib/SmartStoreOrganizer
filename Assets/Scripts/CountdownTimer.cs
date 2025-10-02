@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class CountdownTimer : MonoBehaviour
 {
+    // Starting time in seconds
     [SerializeField] float startTimeSeconds = 30f;
     [SerializeField] TextMeshProUGUI timerText;
     float timeLeft;
     bool isRunning = false;
 
+    // Event triggered when the timer ends
     public event Action OnTimerEnd;
 
     void Start()
@@ -38,7 +40,9 @@ public class CountdownTimer : MonoBehaviour
                 timerText.text = "00:0"+Mathf.CeilToInt(timeLeft).ToString();
         }
     }
-     void Initialize()
+
+    // Initialize the timer and UI
+    void Initialize()
     {
         timeLeft = startTimeSeconds;
         if (timerText != null)
@@ -46,6 +50,8 @@ public class CountdownTimer : MonoBehaviour
             timerText.text = "00:" + Mathf.CeilToInt(timeLeft).ToString();
         }
     }
+
+    // Start the countdown timer
     public void StartTimer()
     {
         timeLeft = startTimeSeconds;

@@ -4,6 +4,7 @@ public class PersistentObjects : MonoBehaviour
 {
     private static PersistentObjects instance;
 
+    // Ensure only one instance exists and persists across scenes
     void Awake()
     {
         if (instance == null)
