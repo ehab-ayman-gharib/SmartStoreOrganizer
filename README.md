@@ -33,7 +33,7 @@ https://www.figma.com/design/0OUusEH9ngIvXprnnxx0iA/SmartStoreOrganizer
 - `AudioManager`: Plays sound effects.
 - `LanguageSelector`, `SettingsPanel`, `SettingsManager`: Manage language and settings.
 
-## Code Structure Overview
+## Assets Used
 - [Low Poly Metal Rack | 3D Furniture | Unity Asset Store]
   (https://assetstore.unity.com/packages/3d/props/furniture/low-poly-metal-rack-213045)
 - [Cooler Fridge | 3D Electronics | Unity Asset Store]
@@ -46,6 +46,11 @@ https://www.figma.com/design/0OUusEH9ngIvXprnnxx0iA/SmartStoreOrganizer
   https://elevenlabs.io/sound-effects
 - [Office Pack - Free | 3D Interior | Unity Asset Store]
   (https://assetstore.unity.com/packages/3d/props/interior/office-pack-free-258600)
+
+### Data Management
+The project uses ScriptableObjects for flexible product data management:
+- `ProductData`: ScriptableObject storing individual product properties
+- `ProductsDatabase`: ScriptableObject container for all products
 
 ## Other Features
 - Async scene loading.
